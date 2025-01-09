@@ -1,0 +1,32 @@
+
+.battery {
+    width: 200px;
+    height: 80px;
+    border: 5px solid black;
+    border-radius: 10px; 
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  
+  .level {
+    width: 0%; 
+    height: 100%;
+    background-color: red; 
+    animation: charge 3s forwards, changeColor 3s forwards;
+  }
+
+  
+  
+  @keyframes charge {
+    to {
+      width: 100%; 
+    }
+  }
+  
+
+  @keyframes changeColor {
+    to {
+      background-color: green;
+    }

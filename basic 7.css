@@ -1,0 +1,14 @@
+.scale-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+  }
+  
+  .scale-button:hover {
+    transform: scale(1.2); 
+  }
+  

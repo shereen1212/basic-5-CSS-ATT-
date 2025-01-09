@@ -1,0 +1,7 @@
+.transformed-image {
+    width: 400px;
+    height: 200px;
+    transform: rotate(45deg);
+    transform-origin: left top; 
+  }
+  

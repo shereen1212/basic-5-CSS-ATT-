@@ -1,0 +1,14 @@
+.cloud {
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 50%;
+    position: absolute;
+    animation: moveCloud 4s infinite;
+  }
+  
+  @keyframes moveCloud {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(300px); }
+  }
+  
